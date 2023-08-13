@@ -1,0 +1,28 @@
+/** @format */
+
+$break-mobile: 450px;
+$break-small: 580px;
+// $break-small: 620px;
+$break-medium: 948px;
+$break-narrow: 1024px;
+$break-normal: 1300px;
+$break-wide: 1500px;
+
+@mixin for-mobile-layout {
+  @media (max-width: $break-mobile) {
+    //580
+    @content;
+  }
+}
+@mixin for-small-layout {
+  @media (max-width: $break-small) {
+    //580
+    @content;
+  }
+}
+@mixin for-medium-layout {
+  @media (max-width: $break-medium) {
+    //580
+    @content;
+  }
+}

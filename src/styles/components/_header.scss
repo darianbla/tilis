@@ -1,0 +1,43 @@
+/** @format */
+.fa-solid {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+.header-container {
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 4em;
+    position: relative;
+    font-family: $font;
+
+    // &::after {
+    //     position: absolute;
+    //     top: 85%;
+    //     left: 5%;
+    //     content: "";
+    //     height: 2px;
+    //     width: 80%;
+    //     background-color: $clr-400;
+    // }
+  }
+
+  .project {
+    font-family: $font-heb;
+    position: relative;
+    font-size: 2em;
+
+    // &::after {
+    //     position: absolute;
+    //     top: 85%;
+    //     left: 72%;
+    //     content: "";
+    //     height: 2px;
+    //     width: 30%;
+    //     background-color: $clr-400;
+    // }
+  }
+}
